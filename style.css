@@ -12,13 +12,20 @@
 
 }
 
-:root {
+/* :root {
     --bg-color: #1f242d;
     --seconde-bg-color: #323946;
     --text-color: #fff;
     --main-color: #0ef;
 
+} */
+:root {
+    --bg-color: rgb(17, 23, 50);
+    --seconde-bg-color: rgba(36, 46, 78, 0.6);
+    --text-color: #fff;
+    --main-color: rgb(59, 186, 196);
 }
+
 
 
 html {
@@ -74,6 +81,13 @@ section {
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
+}
+
+#darkMode-icon {
+    font-size: 2.4rem;
+    color: var(--text-color);
+    cursor: pointer;
+    margin-left: -40%;
 }
 /* Section home */
 .home {
