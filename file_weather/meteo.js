@@ -1,5 +1,4 @@
 // Remplacez {city name} et {API key} par les valeurs appropriées
-// const cityName = "paris";
 const APIKEY = "7413366e8a81308f33d2a30656c8723f";
 
 // Appel a l'API openWeather avec ville en parametre de fonction
