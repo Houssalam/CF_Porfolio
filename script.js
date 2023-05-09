@@ -91,43 +91,6 @@ let url = `https://api.openweathermap.org/data/2.5/weather?q=Marseille&appid=${A
     .catch((err) => console.log("Erreur : " + err));
 
 
-    // Send message form in my email
-    // const fname = document.getElementById('fname');
-    // const lname = document.getElementById('lname');
-    // const email = document.getElementById('email');
-    // const phone = document.getElementById('phone');
-    // const object = document.getElementById('textarea')
-    
-    // // Add event listener on form container
-    // const submit = document.getElementsByClassName('contact')[0];
-    
-    // submit.addEventListener('submit',(e)=>{
-    //     e.preventDefault();
-    //     console.log("clicked");
-    
-    //     // write html for proper format to be sent in mail
-    //     let ebody = `
-    //     <b>Name: </b>${fname.value}nbsp;${lname.value}
-    //     <br>
-    //     <b>Email: </b>${email.value}
-    //     <br>
-    //     <b>Phone: </b>${phone.value}
-    //     <br>
-    //     <b>Object: </b>${textarea.value}
-    //     <br>
-    //     `
-    
-    //     Email.send ({
-    //         SecureToken : "eb288b14-d7f5-4654-938a-866d78d0a364", //add your token here
-    //         To : 'gafour5377@gmail.com', 
-    //         From : "gafour5377@gmail.com",
-    //         Subject : "Testing email" + email.value,
-    //         Body : ebody
-    //     }).then(
-    //       message => alert(message)
-    //     );
-    // });
-
     const fname = document.getElementById('fname');
     const lname = document.getElementById('lname');
     const email = document.getElementById('email');
