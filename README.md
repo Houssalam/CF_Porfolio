@@ -9,7 +9,7 @@ Fonctionnalités
     - Effets de révélation de défilement pour les différents éléments de la page
     - Effet de texte animé qui change régulièrement pour présenter mes compétences en tant que développeur
     - Affichage en temps réel de la température de Marseille en degrés Celsius
-    - Formulaire de contact qui envoie un email à l'adresse spécifiée lorsqu'il est soumis.
+    - Formulaire de contact qui envoie un email à l'adresse à l'addresse que j'ai specifié, lorsqu'il est soumis.
 
 * Technologies utilisées
 
@@ -56,7 +56,7 @@ Ce script supprime la classe `active` de l'icône du menu et du menu de navigati
 
 * Remove Toggle icon and navbar when click navbar link (scroll)
 
-Ce script supprime la classe ``active` de l'icône du menu et du menu de navigation lorsque l'utilisateur clique sur un lien dans la barre de navigation. Cela masque le menu après que l'utilisateur ait sélectionné une section.
+Ce script supprime la classe `active` de l'icône du menu et du menu de navigation lorsque l'utilisateur clique sur un lien dans la barre de navigation. Cela masque le menu après que l'utilisateur ait sélectionné une section.
 
 
 * Scroll Reveal
