@@ -212,7 +212,7 @@ box-shadow: none;
 .about {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 6rem;
     background: var(--seconde-bg-color);
 }
 
