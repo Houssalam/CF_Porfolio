@@ -128,8 +128,8 @@ submit.addEventListener("submit", (e) => {
 
     Email.send({
       SecureToken: "eb288b14-d7f5-4654-938a-866d78d0a364", //add your token here
-      To: "s.abdou28@yahoo.com",
-      From: "s.abdou28@yahoo.com",
+      To: 'gafour5377@gmail.com',
+      From: "gafour5377@gmail.com",
       Subject: "Testing email" + email.value,
       Body: ebody,
     }).then(() => {
